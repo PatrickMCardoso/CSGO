@@ -263,4 +263,31 @@ section b {
   background-color: #00ff00;
 }
 
+@media only screen and (max-width: 780px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
+  nav ul li {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .image-container img {
+    margin: 5px;
+  }
+
+  .login-form {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  main h1 {
+    font-size: 24px;
+  }
+
+  main p {
+    font-size: 16px;
+  }
+}
